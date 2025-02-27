@@ -63,7 +63,8 @@ console.log(allEqual([3, 3, 3, 3, 3, 3]))
 
 //homework#7 (number of even & odd)
 
-const num = [null, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const num = [null, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter(n => typeof
+n === 'number');
 const isOdd = (num) => num % 2 !== 0;
 const odd = num.filter(isOdd);
 console.log(odd.length)
